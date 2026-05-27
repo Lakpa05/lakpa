@@ -15,7 +15,7 @@ const ovo = Ovo({
 
 export const metadata = {
     title: "Lakpa Sherpa",
-    description: "Lakpa Sherpa is a frontend web developer. I am a self-taught developer with 2 years of experience.",
+    description: "Lakpa Sherpa is a Frontend web developer. I am a self-taught developer with 2 years of experience.",
 };
 
 export default function RootLayout({ children }) {

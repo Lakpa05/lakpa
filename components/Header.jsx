@@ -6,7 +6,7 @@ export default function Header() {
                 Hi! I&apos;m Lakpa Sherpa
                 <img src="/assets/hand-icon.png" alt="" className="w-6 mb-1" />
             </h3>
-            <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">frontend web developer based in Nepal.</h1>
+            <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">Frontend web developer based in Nepal.</h1>
             <p className="max-w-2xl mx-auto font-Ovo">I am a frontend developer from Nepal with 4 years of experience in multiple companies like SARA Computer & Service Pvt. Ltd. and Sathiko Sath Nepal.</p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
