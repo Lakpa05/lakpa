@@ -24,6 +24,12 @@ export default function Work() {
       description: "School website with detailed information about the school.",
       link: "https://ramailopathsala.netlify.app/",
     },
+    {
+      name: "NGO Web application",
+      icon: "/assets/ngo.jpg",
+      description: "NGO website with detailed information about the organization.",
+      link: "https://sathikosath.netlify.app/",
+    },
   ];
 
   return (
