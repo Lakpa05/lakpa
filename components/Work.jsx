@@ -1,5 +1,3 @@
-import { FaGithub } from "react-icons/fa";
-
 export default function Work() {
   const work = [
     {
@@ -89,7 +87,7 @@ export default function Work() {
                   className="inline-block px-5 py-2 text-sm font-medium
                             rounded-lg bg-gray-800 text-white
                             hover:bg-gray-900 transition"
-                ><FaGithub />
+                >
                   GitHub
                 </a>
             </div>
