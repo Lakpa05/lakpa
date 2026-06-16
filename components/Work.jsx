@@ -67,7 +67,7 @@ export default function Work() {
                            rounded-lg bg-violet-100 text-violet-700
                            hover:bg-violet-200 transition"
               >
-                View Details
+                View Demo
               </a>
             </div>
           </div>
