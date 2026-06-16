@@ -1,3 +1,5 @@
+import { FaGithub } from "react-icons/fa";
+
 export default function Work() {
   const work = [
     {
@@ -5,30 +7,35 @@ export default function Work() {
       icon: "/assets/lms1.jpg",
       description: "Library Management System where we can lend, borrow books.",
       link: "https://finallibrary.netlify.app/",
+      github: "https://github.com/Lakpa05/Library-Management-System.git",
     },
     {
       name: "Ecommerce website",
       icon: "/assets/ecommerce.jpg",
       description: "Web ecommerce where we can buy electronic devices.",
       link: "https://ls-electronic.netlify.app/",
+      github: "https://github.com/Lakpa05/LS-electronic.git",
     },
     {
       name: "Portfolio website",
       icon: "/assets/portfolio.jpg",
       description: "Portfolio website to showcase my skills and projects.",
       link: "https://lakpa.netlify.app/",
+      github: "https://github.com/Lakpa05/lakpa.git",
     },
     {
       name: "School Web application",
       icon: "/assets/school.jpg",
       description: "School website with detailed information about the school.",
       link: "https://ramailopathsala.netlify.app/",
+      github: "https://github.com/Lakpa05/RamailoPathsala.git",
     },
     {
       name: "NGO Web application",
       icon: "/assets/ngo.jpg",
       description: "NGO website with detailed information about the organization.",
       link: "https://sathikosath.netlify.app/",
+      github: "https://github.com/Lakpa05/sathikosath.git",
     },
   ];
 
@@ -75,6 +82,16 @@ export default function Work() {
               >
                 View Demo
               </a>
+               <a
+                  href={item.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-5 py-2 text-sm font-medium
+                            rounded-lg bg-gray-800 text-white
+                            hover:bg-gray-900 transition"
+                ><FaGithub />
+                  GitHub
+                </a>
             </div>
           </div>
         ))}
